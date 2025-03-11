@@ -1,5 +1,5 @@
 import mimeTypes from 'mime-types';
-import LRU from 'ylru';
+import { LRU } from 'ylru';
 
 let typeLRUCache: LRU;
 

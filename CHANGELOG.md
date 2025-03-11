@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/node-modules/cache-content-type/compare/v2.0.0...v2.1.0) (2025-03-11)
+
+
+### Features
+
+* use ylru@2 ([#2](https://github.com/node-modules/cache-content-type/issues/2)) ([919c1f3](https://github.com/node-modules/cache-content-type/commit/919c1f36b9873b6a3606b90ac49f4e4462b3a55c))
+
 ## [2.0.0](https://github.com/node-modules/cache-content-type/compare/v1.0.1...v2.0.0) (2024-06-08)
 
 

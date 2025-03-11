@@ -5,6 +5,9 @@
 [![Test coverage][codecov-image]][codecov-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
+[![Node.js Version](https://img.shields.io/node/v/cache-content-type.svg?style=flat)](https://nodejs.org/en/download/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/node-modules/cache-content-type)
 
 [npm-image]: https://img.shields.io/npm/v/cache-content-type.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/cache-content-type
@@ -31,3 +34,13 @@ import { getType } from 'cache-content-type';
 const contentType = getType('html');
 assert.equal(contentType, 'text/html; charset=utf-8');
 ```
+
+## License
+
+[MIT](LICENSE)
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=node-modules/cache-content-type)](https://github.com/node-modules/cache-content-type/graphs/contributors)
+
+Made with [contributors-img](https://contrib.rocks).

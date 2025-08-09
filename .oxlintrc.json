@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "./node_modules/@eggjs/oxlint-config/.oxlintrc.json"
+  ],
+  "globals": {
+    "describe": "readonly",
+    "it": "readonly",
+    "afterEach": "readonly"
+  },
+  "rules": {
+    "import/no-named-as-default": "allow",
+    "import/no-named-as-default-member": "allow"
+  }
+}
